@@ -1,14 +1,12 @@
-package com.senpawaii.supermarket_tracker.repositories;
+package com.supermarket_tracker.product.IT;
 
+import com.supermarket_tracker.product.Product;
+import com.supermarket_tracker.product.ProductRepository;
 import org.bson.assertions.Assertions;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.Assertions.*;
-import com.senpawaii.supermarket_tracker.models.Product;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
@@ -16,7 +14,6 @@ import java.util.Comparator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 
 @DataMongoTest
 @ExtendWith(SpringExtension.class)

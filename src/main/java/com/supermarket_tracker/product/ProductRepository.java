@@ -1,6 +1,5 @@
-package com.senpawaii.supermarket_tracker.repositories;
+package com.supermarket_tracker.product;
 
-import com.senpawaii.supermarket_tracker.models.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

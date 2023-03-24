@@ -1,7 +1,5 @@
-package com.senpawaii.supermarket_tracker.controllers;
+package com.supermarket_tracker.product;
 
-import com.senpawaii.supermarket_tracker.models.Product;
-import com.senpawaii.supermarket_tracker.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

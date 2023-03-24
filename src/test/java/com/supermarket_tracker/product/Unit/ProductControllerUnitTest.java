@@ -1,4 +1,4 @@
-package com.senpawaii.supermarket_tracker.controllers;
+package com.supermarket_tracker.product.Unit;
 
 import org.junit.jupiter.api.Test;
 

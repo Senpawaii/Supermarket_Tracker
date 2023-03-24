@@ -1,4 +1,4 @@
-package com.senpawaii.supermarket_tracker.models;
+package com.supermarket_tracker.product;
 
 import org.springframework.data.annotation.Id;
 
